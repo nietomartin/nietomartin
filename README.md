@@ -1,16 +1,35 @@
 # ¡Hola! Soy Martín Nieto 👋 
 ### Ingeniero de Sistemas | Docente Universitario | Entusiasta de los Datos y la Automatización
 
-Ubicado en **Popayán, Colombia** 🇨🇴, me especializo en construir soluciones robustas que conectan la ingeniería de datos con el desarrollo de software de alto impacto. Mi enfoque combina la arquitectura técnica con la formación de nuevos talentos en el sector tecnológico.
+Ubicado en la ciudad **Popayán, Colombia** 🇨🇴, me especializo en construir soluciones robustas que conectan la ingeniería de datos con el desarrollo de software de alto impacto. Mi enfoque combina la arquitectura técnica con la formación de nuevos talentos en el sector tecnológico.
 
 ---
 
 ## 🚀 Proyectos Destacados
 
-### ⚽ [Al Toque](https://github.com/nietomartin/al-toque)
-Sistema inteligente para la gestión y reserva de canchas de fútbol. 
-* **Tech Stack:** Python (Backend API), n8n para flujos de automatización, PostgreSQL y Redis.
-* **Highlight:** Implementación de un bot para agilizar la experiencia del usuario final.
+### ⚽ [DataEngineer_GCPEmulation](https://github.com/nietomartin/DataEngineer_GCPEmulation.git)
+
+Práctica desarrollada como parte del proceso de preparación para un cargo de Ingeniero de Datos en el sector salud
+
+* **Tech Stack:**
+## 🚀 Arquitectura
+
+CSV (1GB)
+→ Ingesta (Python chunks)
+→ Data Lake (MinIO)
+→ Transformación (Pandas / Beam)
+→ Serving (Flask API)
+
+## 🧠 Tecnologías
+
+- Python
+- Apache Beam
+- MinIO (GCS simulado)
+- Docker
+- PostgreSQL
+- Flask
+
+ **Highlight:** Práctica de aplicación de conceptos de ingenieria de Datos a un stack tencológico basado en Google Cloud platform (GCP).
 
 ### 📊 [Software Engineering II - Herramientas Académicas](https://github.com/nietomartin)
 Scripts y herramientas para la gestión académica, incluyendo procesamiento de rúbricas de evaluación mediante Python y Pandas.
